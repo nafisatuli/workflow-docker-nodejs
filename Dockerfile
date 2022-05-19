@@ -7,4 +7,4 @@ RUN npm install
 # copy all of our files
 COPY . ./ 
 EXPOSE 3000
-CMD ["node","index.js"]
+CMD ["npm","run","dev"]
